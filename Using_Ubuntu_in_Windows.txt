@@ -1,0 +1,18 @@
+To install graphics stuff you want to sudo apt-get install:
+ g++
+ emacs25
+ libx11-dev
+ libxext-dev
+ x11-apps
+
+Windows directory is:  /mnt/c/
+
+IMPORTANT: you must run the following command every time you run Ubuntutu LTS for Windows in order to get a graphical environment
+           by connecting Ubuntu to Xming:
+
+export DISPLAY=localhost:0.0
+
+  alternatively, put the above command in a file like my lxm file and type:
+
+source lxm
+
